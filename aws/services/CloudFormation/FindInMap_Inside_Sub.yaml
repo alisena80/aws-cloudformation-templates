@@ -22,14 +22,7 @@ Parameters:
     AllowedValues:
       - dev
       - test
-  AMIidParam:
-    Description: Enter a valid AMI ID for your selected region, suggested to use latest Amazon Linux.
-    Type: AWS::EC2::Image::Id
-    Default: ami-5ec1673e
-  InstanceTypeParam:
-    Description: Enter a valid instance type for your selected region.
-    Type: String
-    Default: 't2.micro'
+ 
 Mappings:
   EnvMap:
     dev:
