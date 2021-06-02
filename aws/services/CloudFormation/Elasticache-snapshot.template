@@ -1,6 +1,6 @@
 {
     "AWSTemplateFormatVersion" : "2010-09-09",
-    "Description"              : "Create a VPC containing two subnets and an auto scaling group containing instances with Internet access.",
+    "Description"ll              : "Create a VPC containing two subnets and an auto scaling group containing instances with Internet access.",
     "Parameters"               : {
         "RedisNodeType" : {
             "Description" : "elasticache Redis Node Instance Type",
